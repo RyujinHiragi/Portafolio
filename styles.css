@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=DM+Serif+Display&family=Montserrat:wght@400;700&display=swap');
+
+        /* Font families based on the design */
+        .font-display {
+            font-family: 'Cinzel Decorative', serif;
+        }
+
+        .font-heading {
+            font-family: 'DM Serif Display', serif;
+        }
+
+        .font-body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Custom styles for background colors */
+        .bg-forest-green {
+            background-color: #ffc0b2;
+        }
+
+        .scroll-down-circle {
+            width: 72px;
+            height: 72px;
+            line-height: 72px;
+        }
+
+        /* Text Shadows and stroke for the repeated portfolio text */
+        .stroke-text {
+            -webkit-text-stroke: 1px #84AFFB;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+        }
+
+        .stroke-text-fill {
+            color: #0259DD;
+            font-weight: 900;
+        }
+
+        /* Buttons and pills */
+        .pill {
+            border-radius: 9999px;
+            padding: 0.25rem 1rem;
+            font-weight: 600;
+            cursor: default;
+            white-space: nowrap;
+            user-select: none;
+        }
+
+        /* Orange color */
+        .orange-bg {
+            background-color: #ff6648;
+            color: #1a1a1a;
+        }
+
+        .orange-bg:hover {
+            background-color: #ff6648;
+        }
+
+        /* Black pill */
+        .pill-black {
+            background-color: #000;
+            color: #fff;
+            padding: 0.3rem 1.2rem;
+            font-weight: 600;
+            margin: 0.2rem;
+            display: inline-block;
+            white-space: nowrap;
+            user-select: none;
+            border-radius: 9999px;
+        }
+
+        /* Responsive photo shape */
+        .photo-border {
+            background-color: #ff6648;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        }

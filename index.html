@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Han Nguyen Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-cream-50 font-body">
+
+    <!-- Top Section -->
+    <section class="relative overflow-hidden bg-forest-green text-dkgreen">
+        <div class="max-w-[1200px] w-full mx-auto px-4 sm:px-6 md:px-12 pt-14 pb-20 grid grid-cols-1 md:grid-cols-12 gap-10">
+
+            <!-- Left side blurred image with orange overlay -->
+            <div class="relative col-span-5 md:col-span-6 flex justify-center items-start">
+                <div class="w-full max-w-xs md:max-w-sm rounded-sm overflow-hidden relative"
+                    style="filter: brightness() saturate(1.2);">
+                    <img src="1.png" alt="Portrait photo of Han Nguyen with muted dark green and orange overlay"
+                        class="object-cover w-full h-auto"
+                        onerror="this.style.filter='brightness(0.5) grayscale(40%)';this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/573aff72-d4e5-4ce3-aca0-53adae30033a.png';" />
+                </div>
+                <div class="absolute left-4 bottom-8 text-black text-[13px] max-w-[150px] break-words">
+                    Desarrollador web con experiencia en la construcción de soluciones front-end y back-end. Experto en
+                    tecnologías modernas para crear aplicaciones dinámicas y funcionales.
+                </div>
+            </div>
+
+            <!-- Top text Content -->
+            <div class="col-span-7 md:col-span-6 relative flex flex-col justify-center px-2 md:px-8">
+
+                <!-- PORTFOLIO large text repeated -->
+                <h1 class="font-display text-4xl sm:text-5xl md:text-7xl leading-tight mb-8 text-white z-10 relative drop-shadow-lg"
+                    style="line-height: 1;">
+                    Juan Esteban Sanchez
+                </h1>
+
+                <!-- Stroke repeated text behind -->
+                <div aria-hidden="true"
+                    class="pointer-events-none absolute top-14 left-0 w-full max-w-md select-none mix-blend-overlay hidden sm:block">
+                    <p class="stroke-text text-5xl sm:text-7xl md:text-[7rem] leading-none tracking-wide max-w-xs"
+                        style="line-height: 1;">
+                        PORTAFIOLIO PORTAFOLIO PORTAFOLIO
+                    </p>
+                </div>
+
+                <!-- Contact Handles on right side -->
+                <div class="absolute top-10 right-0 text-black-400 font-mono text-sm space-y-2 tracking-wide">
+                    <p><span class="font-bold text-black-300">IG:</span> @ryu.vbs</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Black bar with scroll down circle center -->
+        <div class="relative bg-[#0259dd] py-4">
+            <div class="scroll-down-circle w-16 h-16 bg-[#84AFFB] rounded-full text-white font-semibold text-xs flex items-center justify-center tracking-wide mx-auto cursor-pointer select-none"
+                onclick="document.getElementById('aboutme').scrollIntoView({behavior:'smooth'})"
+                aria-label="Scroll down to about me section">
+                Scroll<br />down
+            </div>
+        </div>
+    </section>
+
+    <!-- Color de layer2 -->
+    <section id="aboutme"
+        class="max-w-[2000px] w-full mx-auto px-4 sm:px-6 md:px-12 bg-[#ff6648] min-h-[520px] flex flex-col lg:flex-row gap-10 items-center justify-center py-16">
+
+        <div class="flex-1 max-w-lg">
+            <div class="flex items-center gap-2 mb-6">
+                <span class="text-black-600 text-xl select-none">◆</span>
+                <h2 class="font-heading text-2xl md:text-3xl font-bold">Juan Esteban</h2>
+            </div>
+            <h1 class="font-heading text-3xl sm:text-4xl md:text-5xl font-semibold mb-4 leading-tight"
+                style="letter-spacing: 0.02em;">
+                Hola,<br />Soy Juan !
+            </h1>
+            <p class="text-gray-700 mb-6 leading-relaxed break-words text-center sm:text-left">
+                Desarrollador Full Stack con más de dos años de experiencia en la creación de aplicaciones web seguras y
+                responsivas. Especializado en tecnologías como React, Node.js y principios de ciberseguridad. Hábil en
+                la colaboración con equipos multifuncionales para mejorar la experiencia del usuario y proteger sistemas
+                críticos.
+            </p>
+            <a href="https://github.com/RyujinHiragi" target="_blank" rel="noopener noreferrer"
+                class="inline-block rounded-md bg-[#ff6648] px-6 py-2 text-white font-semibold shadow hover:bg-[#ff6648] transition"
+                aria-label="Linkedin profile link">
+                https://github.com/RyujinHiragi
+            </a>
+        </div>
+
+        <div class="flex-1 relative max-w-[320px] lg:max-w-sm">
+            <div class="photo-border p-4 w-full">
+                <img src="3.png"
+                    alt="Profile photo of Han Nguyen, side profile wearing dark green outfit with a soft neutral background"
+                    class="object-cover w-full max-w-xs sm:max-w-sm h-auto rounded-md shadow-md"
+                    onerror="this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f21c98ce-6a52-4440-b7de-bd456c61b2ed.png';" />
+            </div>
+
+            <div class="absolute sm:top-[15%] sm:left-[-16px] hidden sm:block bg-[#84AFFB] text-black rounded-full px-3 py-1 text-xs font-semibold shadow-md select-none"
+                style="width: fit-content; max-width: 110px;">
+                28 de frebrero 2006
+            </div>
+            <div class="absolute sm:top-[40%] sm:right-[-16px] hidden sm:block bg-[#84AFFB] text-black rounded-full px-3 py-1 text-xs font-semibold shadow-md select-none"
+                style="width: fit-content; max-width: 90px;">
+                Colombia
+            </div>
+
+            <div
+                class="absolute bottom-[-42px] right-0 bg-black bg-opacity-90 text-white p-5 rounded-md w-full max-w-[320px] leading-snug shadow-lg">
+                <h3 class="font-display text-lg mb-2">Contacto</h3>
+                <ul class="text-sm space-y-1">
+                    <li><span aria-hidden="true">📍</span> Bogota, Colombia</li>
+                    <li><span aria-hidden="true">✉️</span> ryu.vbs@gmail.com</li>
+                    <li><span aria-hidden="true">📞</span> 311728680</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Green background section with education, experience, and skills -->
+    <section class="bg-forest-green py-16">
+        <div class="max-w-[1200px] w-full mx-auto px-4 sm:px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-14">
+
+            <!-- Education column left -->
+            <div class="col-span-5 text-[#190a07]">
+                <h3 class="font-display text-3xl mb-6 select-none">Educacion</h3>
+
+                <div class="mb-6">
+                    <div class="flex items-center gap-3 mb-1">
+                        <span class="text-black-500 font-bold select-none">◆</span>
+                        <span class="font-semibold text-lg">Udemy</span>
+                    </div>
+                    <p class="font-semibold text-white">Plataforma de aprendizaje en línea</p>
+                    <ul class="list-disc list-inside space-y-2 text-sm text-black-200">
+                        <li>Curso de HTML de principiante a experto</li>
+                        <li>Curso de CSS de principiante a experto</li>
+                        <li>Curso de Node.js principiante a experto</li>
+                        <li>Curso de React de principiante a experto</li>
+                        <li>Universidad Desarrollo Web - FrontEnd Web Developer</li>
+                        <li>Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL</li>
+                        <li>AIX Administration for Absolute Beginners: Better than Linux</li>
+                        <li>Y más cursos varios</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Experience box center -->
+            <div class="col-span-7 bg-[#84AFFB] rounded-md p-8 shadow-md text-black">
+
+                <h3 class="font-display text-3xl mb-6">Experiencia</h3>
+
+                <div class="mb-6">
+                    <div class="flex items-center gap-3 mb-1">
+                        <span class="font-bold text-sm select-none">◆</span>
+                        <span class="font-semibold text-lg">Full Stack Developer/Freelancer, Medellin</span>
+                    </div>
+                    <p>
+                        Desarrollé aplicaciones web responsivas usando HTML, CSS, JavaScript y frameworks como React y
+                        Angular.
+                        Implementé protocolos de seguridad para proteger los datos del usuario y mejorar la seguridad de
+                        las aplicaciones.
+                        Colaboré con clientes para entender sus necesidades y entregar soluciones de software a medida.
+                        Conduje revisiones de código y sesiones de depuración para asegurar entregas de alta calidad.
+                    </p>
+                </div>
+
+                <div class="mb-6">
+                    <div class="flex items-center gap-3 mb-1">
+                        <span class="font-bold text-sm select-none">◆</span>
+                        <span class="font-semibold text-lg">Administrador de ciberseguridad IMB, Medellin</span>
+                    </div>
+                    <p>
+                        Administré protocolos de ciberseguridad y aseguré el cumplimiento con los estándares de la
+                        industria.
+                        Desarrollé e implementé medidas de seguridad para proteger datos sensibles.
+                        Colaboré con equipos multifuncionales para mejorar la seguridad de la red.
+                        Realicé evaluaciones de riesgo y pruebas de vulnerabilidad en los sistemas.
+                        Proporcioné capacitación y soporte al personal sobre las mejores prácticas en ciberseguridad.
+                    </p>
+                </div>
+
+                <!-- Skills Tags -->
+                <div class="mt-8 flex flex-wrap gap-2">
+                    <div class="pill-black">#Creatividad</div>
+                    <div class="pill-black">#Comunicación</div>
+                    <div class="pill-black">#Orientado al detalle</div>
+                    <div class="pill-black">#Adaptabilidad</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Skills & Languages row below experience & education -->
+        <div class="max-w-[1200px] w-full mx-auto px-4 sm:px-6 md:px-12 mt-14 grid grid-cols-1 lg:grid-cols-12 gap-14">
+
+            <!-- Technical skills left -->
+            <div class="col-span-5 text-[#1a0a07] space-y-6">
+
+                <h3 class="font-display text-3xl">Habilidades técnicas</h3>
+
+                <div class="grid grid-cols-2 gap-8 text-black">
+
+                    <div>
+                        <h4
+                            class="font-heading font-semibold mb-2 underline decoration-black-500 decoration-2 underline-offset-4 text-lg">
+                            Habilidades de Software </h4>
+                        <div class="flex gap-3 flex-wrap">
+                            <span class="pill-black px-4 py-2 font-semibold text-lg cursor-default select-none">Ps</span>
+                            <span class="pill-black px-4 py-2 font-semibold text-lg cursor-default select-none">Ai</span>
+                            <span class="pill-black px-4 py-2 font-semibold text-lg cursor-default select-none">Id</span>
+                            <span class="pill-black px-4 py-2 font-semibold text-lg cursor-default select-none">Xd</span>
+                            <span class="pill-black px-4 py-2 font-semibold text-lg cursor-default select-none">Pr</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4
+                            class="font-heading font-semibold mb-2 underline decoration-black-500 decoration-2 underline-offset-4 text-lg">
+                            Coding skills</h4>
+                        <p class="text-sm mb-2">Basic knowledge of:</p>
+                        <ul class="text-sm grid grid-cols-2 gap-1">
+                            <li>HTML</li>
+                            <li>PHP</li>
+                            <li>CSS</li>
+                            <li>SQL</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Linux</li>
+                            <li>Command Line</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-4 mt-6">
+                    <div class="pill-black">Packaging</div>
+                    <div class="pill-black">Visual design</div>
+                    <div class="pill-black">UI/UX design</div>
+                    <div class="pill-black">User Research</div>
+                </div>
+            </div>
+
+            <!-- Languages right -->
+            <div class="col-span-7 bg-[#84AFFB] rounded-md px-8 py-8 text-black">
+
+                <h3 class="font-display text-3xl mb-6">Lenguajes</h3>
+
+                <div class="flex flex-col lg:flex-row justify-between gap-6 font-semibold text-lg leading-normal">
+
+                    <div>
+                        <h4 class="font-heading text-xl mb-2">English</h4>
+                        <p class="font-body text-sm font-normal">Fluido</p>
+                    </div>
+
+                    <div>
+                        <h4 class="font-heading text-xl mb-2">Español</h4>
+                        <p class="font-body text-sm font-normal">Nativo</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies & Interests -->
+    <section class="max-w-[1200px] w-full mx-auto px-4 sm:px-6 md:px-12 py-16 bg-[#f9f4eb]">
+        <h3 class="font-display text-3xl mb-10">Hobis e Intereses</h3>
+
+        <div class="flex flex-wrap gap-6 text-black select-none">
+            <div class="flex flex-col items-center w-20">
+                <div class="w-12 h-12 bg-black-400 rounded-full flex justify-center items-center shadow">
+                    <span class="text-black font-bold">Arte</span>
+                </div>
+                <span class="mt-2 text-center text-sm font-semibold">Artworks</span>
+            </div>
+
+            <div class="flex flex-col items-center w-20">
+                <div class="w-12 h-12 bg-black-400 rounded-full flex justify-center items-center shadow">
+                    <span class="text-black font-bold">Viajar</span>
+                </div>
+                <span class="mt-2 text-center text-sm font-semibold">Viajar</span>
+            </div>
+
+            <div class="flex flex-col items-center w-20">
+                <div class="w-12 h-12 bg-black-400 rounded-full flex justify-center items-center shadow">
+                    <span class="text-black font-bold">Photo</span>
+                </div>
+                <span class="mt-2 text-center text-sm font-semibold">Fotografia</span>
+            </div>
+
+            <div class="flex flex-col items-center w-20">
+                <div class="w-12 h-12 bg-black-400 rounded-full flex justify-center items-center shadow">
+                    <span class="text-black font-bold">Desarrollo</span>
+                </div>
+                <span class="mt-2 text-center text-sm font-semibold">Software</span>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
